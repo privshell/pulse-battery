@@ -1,0 +1,38 @@
+<p>Your phone loses battery overnight and the system screen only says "Android System". <b>PULSE // BATTERY</b> asks Android directly which apps woke the device, ranks them, and lets you put the worst one to sleep in one tap. It runs through <a href="https://shizuku.rikka.app/">Shizuku</a> or the Sui module. Root is optional and unlocks more.</p>
+
+<p><b>Overnight drain report</b></p>
+<ul>
+<li>Start a period before bed, read the ranking in the morning.</li>
+<li>Apps ranked by alarm wakeups, with a per-hour rate.</li>
+<li>One-tap Restrict (Restricted standby bucket) and one-tap Revert.</li>
+<li>Android keeps the counters, so nothing runs in the background. Reboots are detected.</li>
+</ul>
+
+<p><b>Diagnostics</b>: live battery state, active wake locks attributed to the real package, top alarms.</p>
+
+<p><b>Standby &amp; Doze</b>: view and change the standby bucket of every app, manage the user Doze whitelist, force deep Doze on demand.</p>
+
+<p><b>Wakelocks and background</b>: block an app's wakelocks and background work per app, and put them back with one tap.</p>
+
+<p><b>Vault</b>: export base and split APKs of any app to Download/PulseVault and restore them with one tap.</p>
+
+<p><b>Console</b>: run shell commands as the Shizuku user, with read-only quick commands, cancel, copy and share.</p>
+
+<p><b>With root</b></p>
+<ul>
+<li>HyperOS charge protection: charge fully, intelligent charging, battery protection.</li>
+<li>Automatic charge limit at any level, with a resume floor. Opt-in, with a permanent notification.</li>
+<li>Manual charge gate: hold or release charging now.</li>
+<li>Battery health from the kernel: cycle count, full versus design capacity, voltage, current, temperature.</li>
+<li>CPU time per app from the kernel uid statistics.</li>
+<li>Standby override for apps the system keeps exempt, with the reason shown and the result verified.</li>
+<li>Full app data backup and restore, including external data and obb.</li>
+</ul>
+
+<p><b>Tested on real hardware</b>: every root feature was tested on a physical Redmi Note 14 4G with HyperOS 3 and Android 16, rooted with KernelSU. Keep enforcing the charge limit after a reboot is the one control not yet reboot-tested, and the app says so.</p>
+
+<p>Every change is read back from the system before it is reported as applied.</p>
+
+<p><b>Privacy</b>: no internet permission, no account, no ads, no trackers. Open source, MIT licensed.</p>
+
+<p><b>Requires</b>: Android 8.0+ and Shizuku or Sui running (wireless debugging, ADB or root).</p>

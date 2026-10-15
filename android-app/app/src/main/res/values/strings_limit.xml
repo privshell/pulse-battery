@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="limit_channel_name">Charge limit</string>
+    <string name="limit_channel_description">Shown while the charge limit is watching the battery level.</string>
+    <string name="limit_notif_title">Charge limit active</string>
+    <string name="limit_notif_starting">Starting…</string>
+    <string name="limit_notif_connecting">Waiting for the privileged service…</string>
+    <string name="limit_notif_unreadable">The battery nodes could not be read. Nothing was changed.</string>
+    <string name="limit_notif_level">⁦%1$d %%⁩</string>
+    <string name="limit_notif_level_unknown">level unknown</string>
+    <!-- These describe the charge gate, not the battery. "charging" alone read as a
+         contradiction next to "on battery" in the same line. -->
+    <string name="limit_notif_gate_open">charging allowed</string>
+    <string name="limit_notif_gate_paused">charging held</string>
+    <string name="limit_notif_gate_unknown">gate unknown</string>
+    <string name="limit_notif_plugged">plugged in</string>
+    <string name="limit_notif_unplugged">on battery</string>
+    <string name="limit_notif_thresholds">stop ⁦%1$d⁩, resume ⁦%2$d⁩</string>
+
+    <!-- One-shot pass after a reboot when the limit was not set to survive it. -->
+    <string name="limit_notif_release_title">Checking the charge gate</string>
+    <string name="limit_notif_releasing">Checking whether the reboot left charging held…</string>
+    <string name="limit_notif_release_not_needed">Charging was not held. Nothing to undo.</string>
+    <string name="limit_notif_release_done">The reboot had left charging held. Charging is allowed again.</string>
+    <string name="limit_notif_release_failed">Charging is still held and could not be released. Open PULSE and use Resume charging.</string>
+    <string name="limit_notif_release_no_service">The privileged service did not start, so the charge gate was not checked. Open PULSE to check it.</string>
+
+    <string name="limit_title">Automatic charge limit</string>
+    <string name="limit_enable">Keep the battery at a chosen level</string>
+    <string name="limit_stop_at">Stop charging at ⁦%1$d %%⁩</string>
+    <string name="limit_resume_at">Resume charging at or below ⁦%1$d %%⁩</string>
+    <string name="limit_decrease">Less</string>
+    <string name="limit_increase">More</string>
+    <string name="limit_restore_on_boot">Keep enforcing after a reboot</string>
+    <string name="limit_boot_untested">Not verified on a device yet. This is the one control in the root track that has not been through a reboot test, so treat it as unproven and check the charge state yourself after the first reboot.</string>
+    <string name="limit_service_note">This is the only part of the app that keeps running in the background. While it is on you will see a permanent notification, and it stops itself as soon as it has nothing left to do.\n\nAfter a reboot, with the switch above on the limit carries on. With it off the limit is switched off, and the app starts once only to reopen the charge gate if the reboot left charging held, then stops.</string>
+    <string name="limit_rom_note">Turn the ROM battery protection to Charge fully while using this, or the two will fight over the same hardware.</string>
+    <string name="limit_range_note">The resume level is always kept at least ⁦%1$d⁩ percent below the stop level, so charging cannot switch on and off repeatedly.</string>
+</resources>

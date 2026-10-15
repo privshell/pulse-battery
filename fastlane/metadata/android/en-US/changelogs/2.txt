@@ -1,0 +1,7 @@
+Root mode.
+
+With root: charge protection, a charge limit at any level with a recharge floor, battery health from the kernel, CPU time per app, a standby override for apps the system keeps exempt, and full app data backup and restore.
+
+Without root: per-app wakelock and background blocking.
+
+Every root feature was tested on a physical Redmi Note 14 4G rooted with KernelSU. Every change is read back and only reported as applied when the system confirms it.
