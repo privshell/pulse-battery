@@ -9,7 +9,7 @@ This is the practical record for continuing the project without relying on chat 
 - Native Kotlin + Jetpack Compose app, package `io.github.kreza6173pixel.pulsebattery`.
 - `native-app-v0` merged into `main`; release `v1.0.0` published on GitHub with the signed APK. All work continues on `main`.
 - Version `1.0.0` (code 1), Android 8.0+ (SDK 26), target/compile SDK 36.
-- Release certificate `CN=PULSE, O=kreza6173-pixel`, SHA-256 `3f8c1e2df2deaf9d561a8fdce3c667ed0ceda972622f20d006a1b6098c2a2512`.
+- Release certificate `CN=PULSE, O=privshell`, SHA-256 `3f8c1e2df2deaf9d561a8fdce3c667ed0ceda972622f20d006a1b6098c2a2512`.
 - English-only. No `INTERNET` permission. Dependency-info block disabled for F-Droid style checks.
 - Verified on Xiaomi / Android 16 / Shizuku shell uid 2000.
 
@@ -34,7 +34,7 @@ Request text:
 
 ```text
 PULSE // BATTERY
-https://github.com/kreza6173-pixel/pulse-battery
+https://github.com/privshell/pulse-battery
 
 Open-source (MIT) Android battery utility built on Shizuku. Overnight per-app alarm-wakeup report,
 one-tap Restrict with read-back verification, battery/wake lock/alarm diagnostics, Standby & Doze
@@ -69,7 +69,7 @@ with one-tap revert. Also battery/wake lock/alarm diagnostics, Standby & Doze co
 
 No root, no internet permission, no ads, no tracking. MIT.
 Built with AI assistance, tested on Xiaomi / Android 16.
-https://github.com/kreza6173-pixel/pulse-battery/releases/tag/v1.0.0
+https://github.com/privshell/pulse-battery/releases/tag/v1.0.0
 ```
 
 ## 3. Reusable Android engineering playbook

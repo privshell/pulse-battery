@@ -11,7 +11,7 @@ Works without root through [Shizuku](https://shizuku.rikka.app/). With root, it 
 ![Root optional](https://img.shields.io/badge/root-optional-orange)
 ![Tested on a rooted device](https://img.shields.io/badge/tested-on%20real%20hardware-success)
 ![No internet](https://img.shields.io/badge/internet-none-success)
-[![Latest release](https://img.shields.io/github/v/release/kreza6173-pixel/pulse-battery)](https://github.com/kreza6173-pixel/pulse-battery/releases/latest)
+[![Latest release](https://img.shields.io/github/v/release/privshell/pulse-battery)](https://github.com/privshell/pulse-battery/releases/latest)
 
 </div>
 
@@ -128,7 +128,7 @@ may be claimed.
 
 ## Install
 
-Download the APK from [Releases](https://github.com/kreza6173-pixel/pulse-battery/releases/latest).
+Download the APK from [Releases](https://github.com/privshell/pulse-battery/releases/latest).
 On first launch PULSE asks Shizuku for permission. If Shizuku says allowed but PULSE still
 asks, tap **Restart app** (some Shizuku builds apply a new grant only to a fresh process).
 
@@ -202,7 +202,7 @@ Shizuku API 13.1.5.
 ## Support
 
 PULSE is free, open source and has no ads or trackers, built in spare time. If it saved your
-battery, you can [support the work with a small crypto donation](https://github.com/kreza6173-pixel/kreza6173-pixel/blob/main/DONATE.md)
+battery, you can [support the work with a small crypto donation](https://github.com/privshell/privshell/blob/main/DONATE.md)
 (USDT on TRC20, or USDC / SOL on Solana). A star helps other people find it, and contributions
 and bug reports are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
 

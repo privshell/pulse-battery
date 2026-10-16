@@ -3,14 +3,14 @@
 Categories:
   - System
 License: MIT
-AuthorName: kreza6173-pixel
-SourceCode: https://github.com/kreza6173-pixel/pulse-battery
-IssueTracker: https://github.com/kreza6173-pixel/pulse-battery/issues
+AuthorName: privshell
+SourceCode: https://github.com/privshell/pulse-battery
+IssueTracker: https://github.com/privshell/pulse-battery/issues
 
 AutoName: PULSE // BATTERY
 
 RepoType: git
-Repo: https://github.com/kreza6173-pixel/pulse-battery.git
+Repo: https://github.com/privshell/pulse-battery.git
 
 Builds:
   - versionName: 1.0.0

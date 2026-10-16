@@ -42,5 +42,5 @@
     <string name="report_star_body">PULSE is free, with no ads and no tracking. A GitHub star helps other people find it.</string>
     <string name="report_star_action">Star on GitHub</string>
     <string name="report_star_dismiss">No thanks</string>
-    <string name="report_repo_url" translatable="false">https://github.com/kreza6173-pixel/pulse-battery</string>
+    <string name="report_repo_url" translatable="false">https://github.com/privshell/pulse-battery</string>
 </resources>

@@ -18,7 +18,7 @@
 | M5a/b APK Vault | done | export of 3 apps (up to 128 MB), delete, restore `app.morphe.manager` gives `Success` |
 | M5c data backup | paused | debuggable apps via `run-as` only (manual test worked). Root **deliberately locked** |
 | Drain report | done | overnight period verified on the phone |
-| Release signing | done | CI builds signed `app-release`, cert `CN=PULSE, O=kreza6173-pixel` |
+| Release signing | done | CI builds signed `app-release`, cert `CN=PULSE, O=privshell` |
 | v1.0.0 release | **done** | merged into `main` (#1), tag `v1.0.0`, GitHub Release 2026-10-02 |
 | Signed release APK on the phone | **to verify** | only debug builds were phone-tested; release has `debuggable=false` on the UserService |
 
@@ -120,7 +120,7 @@ No template repo: with only one new app it is not worth maintaining.
 ## 7. Ready prompt for an agent
 
 ```text
-Repo kreza6173-pixel/pulse-battery, branch main. Read docs/HANDOFF.md first,
+Repo privshell/pulse-battery, branch main. Read docs/HANDOFF.md first,
 fully. It is the source of truth together with the code; CI logs beat both.
 
 TASK: <one step>

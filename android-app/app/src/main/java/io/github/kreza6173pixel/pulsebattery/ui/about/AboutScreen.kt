@@ -23,7 +23,7 @@ import androidx.compose.ui.unit.dp
 import io.github.kreza6173pixel.pulsebattery.R
 import io.github.kreza6173pixel.pulsebattery.ui.common.LtrMonoText
 
-private const val REPO_URL = "https://github.com/kreza6173-pixel/pulse-battery"
+private const val REPO_URL = "https://github.com/privshell/pulse-battery"
 
 private data class Library(val name: String, val coordinates: String, val license: String)
 

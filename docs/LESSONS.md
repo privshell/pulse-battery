@@ -5,7 +5,7 @@ Every claim is either quoted from a CI log/artifact in this project or is explic
 marked **UNVERIFIED**. Nothing here is inferred from general knowledge.
 
 Branch: `native-app-v0`. Green run: **36795807603**
-(<https://github.com/kreza6173-pixel/pulse-battery/actions/runs/36795807603>).
+(<https://github.com/privshell/pulse-battery/actions/runs/36795807603>).
 
 ---
 
